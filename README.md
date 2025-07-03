@@ -2,6 +2,13 @@
 
 This project uses Transfer Learning with a pre-trained ResNet18 model to classify images into Male or Female based on facial features.
 
+# Model Weight
+
+Model weight (.pth file) are stored on google drive due to file size limits.
+
+## Download Model Weights here
+
+https://drive.google.com/file/d/1vhJKAPdhcAvIwZ1xyte5J_17PdqFVqx6/view?usp=sharing
 
 
  # 🚀 Project Overview--
