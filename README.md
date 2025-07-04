@@ -14,6 +14,27 @@ https://drive.google.com/file/d/1vhJKAPdhcAvIwZ1xyte5J_17PdqFVqx6/view?usp=shari
 
 https://github.com/Anushkasaha1/Gender-Classification-Project/blob/main/gender-classification-project.py
 
+## 🧠 Model Architecture
+The gender classification model uses ResNet18 as its backbone. The architecture is modified as follows:
+
+Backbone:
+
+ResNet18 pre-trained on ImageNet
+
+Custom Classification Head:
+
+Original fully connected layer (fc) replaced with:
+
+Linear layer (512 → 512 units)
+
+ReLU activation
+
+Dropout (e.g. probability 0.3) to reduce overfitting
+
+Linear layer (512 → 2 units) for binary classification (male / female)
+
+This design enables the network to learn high-level facial features while adapting specifically to gender prediction.
+
 
  # 🚀 Project Overview--
   1.Model: ResNet18 (pre-trained on ImageNet) 
