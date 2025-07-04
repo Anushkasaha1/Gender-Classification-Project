@@ -10,6 +10,10 @@ Model weight (.pth file) are stored on google drive due to file size limits.
 
 https://drive.google.com/file/d/1vhJKAPdhcAvIwZ1xyte5J_17PdqFVqx6/view?usp=sharing
 
+## Model Architecture,Validation loop and training loop
+
+https://github.com/Anushkasaha1/Gender-Classification-Project/blob/main/gender-classification-project.py
+
 
  # 🚀 Project Overview--
   1.Model: ResNet18 (pre-trained on ImageNet) 
